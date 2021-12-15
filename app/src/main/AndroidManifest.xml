@@ -6,9 +6,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/storeedit"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/storeedit"
         android:supportsRtl="true"
         android:theme="@style/Theme.Myshop"
         >
@@ -17,6 +17,11 @@
         <!--
         android:theme="@style/Theme.Myshop"
 -->
+        <!-- database provider or it will return null for the cursor -->
+        <provider
+            android:name=".database.DatabaseProvider"
+            android:authorities="com.orecy.myshop"
+            android:exported="false"/>
 
         <activity
             android:name=".activities.product_list"

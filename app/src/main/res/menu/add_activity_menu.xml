@@ -7,14 +7,14 @@
 
     <item
         android:orderInCategory="99"
-        android:id="@+id/add_image_book_menu_button"
+        android:id="@+id/add_image_pro_menu_button"
         android:title="Add Image Product"
         android:icon="@drawable/ic_image"
         app:showAsAction="always" />
 
     <item
         android:orderInCategory="100"
-        android:id="@+id/save_book_menu_button"
+        android:id="@+id/save_product_menu_button"
         android:title="Save Product"
         android:icon="@drawable/ic_save"
         app:showAsAction="always" />

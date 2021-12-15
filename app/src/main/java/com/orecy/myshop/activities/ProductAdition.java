@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.orecy.myshop.R;
@@ -33,8 +34,8 @@ public class ProductAdition extends AppCompatActivity {
     private EditText mProductNameEditText;
     private EditText mProductPriceEditText;
     private EditText mProductQuantityEditText;
-    private Button mQuantityMinusButton;
-    private Button mQuantityPlusButton;
+    private ImageButton mQuantityMinusButton;
+    private ImageButton mQuantityPlusButton;
     private EditText mSupplierNameEditText;
     private EditText mSupplierPhoneEditText;
     private EditText mSupplierEmailEditText;
@@ -48,6 +49,18 @@ public class ProductAdition extends AppCompatActivity {
         context=this;
 
         findViews();
+
+    }
+    private void findViews() {
+        mProductNameEditText = (EditText) findViewById(R.id.product_name_edit);
+        mProductPriceEditText = (EditText) findViewById(R.id.price_edit);
+        mProductQuantityEditText = (EditText) findViewById(R.id.quantity_edit);
+        mQuantityMinusButton = (ImageButton) findViewById(R.id.decrease_quantity);
+        mQuantityPlusButton = (ImageButton) findViewById(R.id.increase_quantity);
+        mSupplierNameEditText = (EditText) findViewById(R.id.supplier_name_edit);
+        mSupplierPhoneEditText = (EditText) findViewById(R.id.supplier_phone_edit);
+        mSupplierEmailEditText = (EditText) findViewById(R.id.supplier_email_edit);
+
         mQuantityMinusButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -61,16 +74,6 @@ public class ProductAdition extends AppCompatActivity {
             }
         });
 
-    }
-    private void findViews() {
-        mProductNameEditText = (EditText) findViewById(R.id.product_name_edit_text);
-        mProductPriceEditText = (EditText) findViewById(R.id.product_price_edit_view);
-        mProductQuantityEditText = (EditText) findViewById(R.id.product_quantity_edit_view);
-        mQuantityMinusButton = (Button) findViewById(R.id.product_quantity_minus_button);
-        mQuantityPlusButton = (Button) findViewById(R.id.product_quantity_plus_button);
-        mSupplierNameEditText = (EditText) findViewById(R.id.supplier_name_edit_text);
-        mSupplierPhoneEditText = (EditText) findViewById(R.id.supplier_phone_edit_text);
-        mSupplierEmailEditText = (EditText) findViewById(R.id.supplier_email_edit_text);
     }
 
     private void removeQuantity() {
@@ -169,10 +172,10 @@ public class ProductAdition extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.add_image_book_menu_button:
+            case R.id.add_image_pro_menu_button:
                 Toast.makeText(context, R.string.image_added, Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.save_book_menu_button:
+            case R.id.save_product_menu_button:
                 addProduct();
                 break;
         }
