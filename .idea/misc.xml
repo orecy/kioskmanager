@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/circlbackgroundgreen.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/circlebackgroundpink.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/circlebackgroundpurple.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/circlebackgroundyellow.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/empty_products.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_add_black_24dp.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_add_black_add.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_attach_money_black_24dp.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_contact_supplier.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_delete.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_delete_black_24dp.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_edit.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_find_replace_black_24dp.xml" value="0.19166666666666668" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_image.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_remove_black_24dp.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/drawable/ic_save.xml" value="0.21666666666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/activity_product_adition.xml" value="0.19972826086956522" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/activity_product_list.xml" value="0.19322916666666667" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/content_add_items.xml" value="0.25" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/content_add_pro.xml" value="0.22" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/content_productlist.xml" value="0.19972826086956522" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/layout/list_item.xml" value="0.19972826086956522" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/menu/add_activity_menu.xml" value="0.20625" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/menu/details_activity_menu.xml" value="0.20625" />
+        <entry key="..\:/Aside/Myshop/app/src/main/res/menu/main_activity_menu.xml" value="0.20625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
